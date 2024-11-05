@@ -1,0 +1,15 @@
+.game__play__numbers {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1em;
+  height: 100%;
+  padding: 2em 1em;
+}
+
+.game__play__numbers > :last-child {
+  grid-column: 2 / span 1;
+}
+
+.game__play__number {
+  font-size: 1.3em;
+}

@@ -6,11 +6,31 @@
 :root {
   color: var(--color-foreground);
   background-color: var(--color-background);
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  height: 100vh;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
     --color-foreground: black;
     --color-background: white;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #root {
+    max-width: 600px;
+    margin: auto;
   }
 }

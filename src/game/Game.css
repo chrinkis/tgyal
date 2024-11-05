@@ -1,0 +1,30 @@
+.game {
+  display: grid;
+  grid-template-rows: min-content auto;
+  height: 100%;
+}
+
+.game__info {
+  text-align: center;
+}
+
+.game__info__sum__title {
+  font-size: 3em;
+}
+
+.game__info__sum__title::after {
+  content: ":";
+}
+
+.game__info__sum__value {
+  font-size: 5em;
+  font-weight: bold;
+}
+
+.game__info__opponent {
+  font-size: 1.5em;
+}
+
+.game__info__opponent * {
+  display: inline;
+}

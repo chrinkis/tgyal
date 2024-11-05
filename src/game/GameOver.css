@@ -1,0 +1,18 @@
+.game__over {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game__over__winner {
+  font-size: 5em;
+  font-weight: bold;
+}
+
+.game__over__replay {
+  width: 40%;
+  height: 3em;
+  font-size: 1.2em;
+}
