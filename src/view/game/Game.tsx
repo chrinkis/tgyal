@@ -1,6 +1,9 @@
 import { GamePlay } from "./GamePlay";
 import { GameOver } from "./GameOver";
-import { Game as GameModel, SetGameType as SetGameModelType } from "./game";
+import {
+  Game as GameModel,
+  SetGameType as SetGameModelType,
+} from "../../model/game";
 import "./Game.css";
 
 export default function Game({

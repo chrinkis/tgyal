@@ -1,4 +1,4 @@
-import { Game, Player, SetGameType } from "./game";
+import { Game, Player, SetGameType } from "../../model/game";
 import "./GameOver.css";
 
 export function GameOver({

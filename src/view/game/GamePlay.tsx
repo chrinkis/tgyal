@@ -1,4 +1,4 @@
-import { Game, SetGameType } from "./game";
+import { Game, SetGameType } from "../../model/game";
 import "./GamePlay.css";
 
 const NUMBERS: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];

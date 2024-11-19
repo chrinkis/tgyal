@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Game as GameModel } from "./game/game";
+import { Game as GameModel } from "../model/game";
 import Welcome from "./welcome/Welcome";
 import Game from "./game/Game";
 import "./App.css";
